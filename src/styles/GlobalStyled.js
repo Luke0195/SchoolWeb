@@ -1,11 +1,11 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import {
-  errorColor,
-  infoColor,
+  // errorColor,
+  // infoColor,
   primaryColor,
   primaryDarkColor,
-  sucessColor,
-  warningColor,
+  // sucessColor,
+  // warningColor,
 } from '../config/color';
 
 export default createGlobalStyle`
