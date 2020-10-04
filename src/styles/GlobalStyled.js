@@ -1,6 +1,16 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import {
+  errorColor,
+  infoColor,
+  primaryColor,
+  primaryDarkColor,
+  sucessColor,
+  warningColor,
+} from '../config/color';
 
 export default createGlobalStyle`
+
+
 *{
   padding:0%;
   margin:0;
@@ -15,15 +25,22 @@ html, body, #root{
 body{
   text-rendering:optimizeLegibility;
   --webkit-font-smoothing: antialiased !important;
-  background-color: #7159c1;
+  background-color: ${primaryDarkColor};
 }
 
 button{
   cursor: pointer;
+  background-color: ${primaryColor};
+  color:#fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 700;
 }
 
 a{
  text-decoration: none;
+ color: ${primaryColor};
 }
 
 ul{
