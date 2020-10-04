@@ -1,10 +1,8 @@
 import React from 'react';
 
+import LoginPage from './pages/Login';
+import './App.css';
+
 export default function App() {
-  return (
-    <>
-      <h1> Desenvolvimento da aplicação web </h1>
-      <h2> Teste </h2>
-    </>
-  );
+  return <LoginPage />;
 }
