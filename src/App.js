@@ -1,8 +1,14 @@
 import React from 'react';
 
+import GlobalStyles from './styles/GlobalStyled';
+
 import LoginPage from './pages/Login';
-import './App.css';
 
 export default function App() {
-  return <LoginPage />;
+  return (
+    <>
+      <GlobalStyles />
+      <LoginPage />
+    </>
+  );
 }
