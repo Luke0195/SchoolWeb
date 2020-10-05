@@ -53,4 +53,13 @@ export const Container = styled.section`
   max-width: 400px;
   background-color: #fff;
   margin: 30px auto;
+  border-radius: 8px;
+
+  h1 {
+    font-size: 28px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 38px;
+  }
 `;
